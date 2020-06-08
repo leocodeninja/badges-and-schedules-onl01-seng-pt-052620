@@ -2,10 +2,8 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-
-
 def batch_badge_creator(array)
-  badges =[]
+  badges = []
   array.each do |name|
     badges.push(badge_maker(name))
 
@@ -30,11 +28,8 @@ def printer(arrays)
       puts item
     end
 
-
-
-      output2=   assign_rooms(arrays)
-      output2.each do |item|
+    output2=   assign_rooms(arrays)
+    output2.each do |item|
         puts item
       end
-
-end
+    end
